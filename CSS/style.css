@@ -1,0 +1,588 @@
+/* Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Setion Tag  */
+
+section {
+    padding-top: 65px;
+
+}
+
+/* Header Section  */
+
+header {
+    width: 100%;
+    background-color: rgb(6, 5, 5);
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 80px;
+    position: fixed;
+    z-index: 100;
+}
+
+.port a {
+    color: deeppink;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: capitalize;
+
+}
+
+.port :hover {
+    color: rgb(44, 192, 177);
+}
+
+.nav_list li {
+    padding: 0 12px;
+    display: inline;
+}
+
+.nav_list a {
+    color: #fbf6f6;
+    font-size: 20px;
+}
+
+.nav_list a:hover {
+    color: #10e3e3;
+}
+
+
+/* Home Section */
+
+.home {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    background: linear-gradient(26deg, skyblue 50%, orange 50%);
+
+
+}
+
+.home_content {
+    font-weight: 500;
+    padding-left: 120px;
+}
+
+.home_content h3 {
+    font-size: 20px
+}
+
+.home_content h1 {
+    font-size: 60px
+}
+
+.home_content .myname {
+    color: deeppink;
+}
+
+.home_content h2 {
+    font-size: 40px
+}
+
+.home_content p {
+    font-size: 19px;
+    padding-top: 20px;
+}
+
+.home_content a:hover {
+    color: #10e3e3;
+
+}
+
+.home_image img {
+    border-radius: 30px;
+    height: 450px;
+    width: 450px;
+    margin-right: 80px;
+    box-shadow: 2px 5px 10px 5px #151313;
+}
+
+.icon3 {
+    font-size: 35px;
+    color: rgb(35, 36, 31);
+    margin-top: 30px;
+    letter-spacing: 15px;
+}
+
+.icon3:hover {
+    color: deeppink;
+}
+
+/* About section */
+
+.about {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(155deg, orange 50%, skyblue 50%);
+}
+
+.about .about_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.about .about_left img {
+    width: 400px;
+    height: 500px;
+    border-radius: 5%;
+    margin-left: 100px;
+    /* border: 2px solid red; */
+    box-shadow: 10px 2px 20px rgb(14, 13, 13);
+
+}
+
+.about_right {
+    margin-left: 40px;
+}
+
+.about_right i {
+    float: left;
+    margin-right: 1%;
+}
+
+.about_right p {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 25px;
+    margin-left: 40px;
+    color: black;
+}
+
+.icon5 {
+    font-size: 20px;
+    margin-top: 6px;
+    margin-right: 45px;
+}
+
+/* Academic Section */
+
+.academic {
+    background: linear-gradient(47deg, orange 50%, skyblue 50%);
+}
+
+.education {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.college {
+    padding: 2rem 1rem;
+    margin: 0 2rem;
+    border-radius: 30px;
+    border: .3rem solid #acd622;
+    box-shadow: 2px 2px 15px #181514;
+    font-size: 20px;
+    width: 50%;
+    height: 600px;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.college img {
+    width: 400px;
+}
+
+.college h3 {
+    text-align: center;
+    padding-bottom: 25px;
+    text-decoration: underline;
+}
+
+.college h5 {
+    padding-top: 10px;
+}
+
+.msc {
+    background: linear-gradient(white, rgb(220, 74, 99));
+
+}
+
+.bsc {
+    background-image: radial-gradient(circle, rgb(169, 206, 36), rgb(184, 204, 202));
+}
+
+.hsc {
+    background-image: radial-gradient(circle, rgb(180, 50, 162), rgb(184, 204, 202));
+
+}
+
+.sslc {
+    background-image: radial-gradient(circle, rgb(235, 107, 38), rgb(184, 204, 202));
+
+}
+
+/* Project Section */
+
+.projects {
+    background: linear-gradient(313deg, orange 50%, skyblue 50%);
+}
+
+.project_details {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 70px;
+}
+
+.project {
+    border: .3rem solid #8f94fb;
+    box-shadow: 2px 5px 10px 5px #151313;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+
+}
+
+
+
+.project_data {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.project_content {
+    width: 50%;
+}
+
+.project h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+.project_content h3 {
+    padding-top: 15px;
+    font-size: 18px;
+}
+
+.project_content p {
+    padding-left: 15%;
+    padding-top: 5px;
+    font-size: 20px;
+    font-weight: 450;
+}
+
+.project_image img {
+    width: 500px;
+    height: 350px;
+}
+
+.project1 {
+    background: linear-gradient(12deg, rgb(155, 206, 72) 50%, pink 50%);
+
+}
+
+.project2 {
+    background: linear-gradient(12deg, rgb(235, 129, 47) 50%, rgb(210, 218, 159) 50%);
+    margin-bottom: 20px;
+
+}
+
+/*  Skills Section  */
+
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: radial-gradient(circle, skyblue 48%, orange 45%);
+}
+
+.skill_content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.skill_content h2 {
+    text-align: center;
+    border: 2px solid black;
+    width: 50%;
+    margin: 2px 2px;
+    background-color: white;
+    margin-left: 23%;
+    border-radius: 20px;
+
+}
+
+.skill_list {
+    padding-top: 15px;
+}
+
+.skill_left {
+    width: 57%;
+    padding-left: 80px;
+}
+
+
+
+.skill_list h3 {
+    font-size: 20px;
+    padding-top: 30px;
+
+}
+
+.skill_list h4 {
+    font-size: 20px;
+    color: red;
+
+}
+
+.icon {
+    color: rgb(13, 13, 14);
+    font-size: 40px;
+    margin-right: 15px;
+}
+
+.skill_bg {
+    background: linear-gradient(120deg, white 30%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5px;
+}
+
+
+.skill_html {
+    width: 90%;
+    text-align: end;
+    background-color: deeppink;
+    height: 10px;
+}
+
+.skill_css {
+    width: 85%;
+    text-align: right;
+    background-color: deeppink;
+    height: 10px;
+}
+
+.skill_javascript {
+    width: 70%;
+    text-align: right;
+    background-color: deeppink;
+    height: 10px;
+}
+
+.skill_bootstrap {
+    width: 80%;
+    text-align: right;
+    background-color: deeppink;
+    height: 10px;
+}
+
+.skill_python {
+    width: 72%;
+    text-align: right;
+    background-color: deeppink;
+    height: 10px;
+}
+
+
+/* Career snap */
+
+.skill_right {
+    margin-left: 80px;
+}
+
+.skill_right p {
+    font-weight: 500;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: larger;
+    margin-top: 20px;
+}
+
+
+.icon2 {
+    color: rgb(43, 49, 49);
+    font-size: 30px;
+    margin-right: 15px;
+
+}
+
+/* Button style for Resume Downloading*/
+
+.submit {
+    margin-top: 3rem;
+    margin-left: 75%;
+    background-color: deeppink;
+    color: white;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bolder;
+    height: 50px;
+    width: 15%;
+    margin-bottom: 20px;
+}
+
+.skills a button:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Contact Section */
+
+.contact {
+    background: linear-gradient(150deg, skyblue 50%, orange 50%);
+}
+
+
+.contact_content h1 {
+    text-align: center;
+}
+
+.contact_details {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.contact_details h1 {
+    text-align: center;
+}
+
+.touch {
+    display: block;
+}
+
+.icon4 {
+    font-size: 30px;
+    color: rgb(227, 56, 33);
+    margin-right: 15px;
+}
+
+.touch h3 {
+    padding-top: 25px;
+}
+
+.touch h3 .tt {
+    margin-right: 10px;
+}
+
+.touch h4 {
+    padding-top: 8px;
+    padding-left: 65px;
+}
+
+.touch h4 a {
+    color: black;
+}
+
+.message_form {
+    font-size: 22px;
+    font-weight: 500;
+    border: 3px solid black;
+    height: 550px;
+    width: 550px;
+    background-color: skyblue;
+    margin-top: 15px;
+}
+
+.message_form .box {
+    padding: 10px;
+    margin-left: 100px;
+    padding-top: 20px;
+}
+
+.message_form input {
+    width: 322px;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 32px;
+    font-size: 20px;
+    background-color: wheat;
+    margin-top: 2px;
+
+}
+
+.message_form textarea {
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-top: 2px;
+    background: radial-gradient(circle, white, wheat);
+
+}
+
+.invalid {
+    color: red;
+    font-size: 15px;
+    margin-left: 160px;
+}
+
+.box .submit {
+    margin-left: 25%;
+    height: 40px;
+    width: 20%;
+    border: 2px solid black;
+    border-radius: 10%;
+    background-color: rgb(186, 131, 187);
+    color: black;
+
+}
+
+.feedback {
+    height: 50px;
+    width: auto;
+    color: black;
+    border: 2px solid grey;
+    border-radius: 10px;
+    background-color: rgb(225, 217, 217);
+    font-size: 30px;
+    margin-left: 43%;
+    margin-bottom: 20px;
+    display: inline-block;
+
+}
+
+/* Footer */
+
+.footer {
+    background-color: rgb(97, 96, 96);
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.footer .footer_end {
+    padding-top: 7px;
+}
+
+.icon6 {
+    font-size: 30px;
+    color: black;
+    letter-spacing: 10px;
+}
+
+/* My Outline of the Code is Completed then its for some New Styles */
+
+.tittle {
+    text-align: center;
+    color: deeppink;
+    font-size: 30px;
+    text-decoration: none;
+}
